@@ -1,0 +1,25 @@
+package Java_Programs.print_numbers;
+
+import java.util.Scanner;
+
+public class Prnt_Even_1t10_Num {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the First number");
+        int first_no = scanner.nextInt();
+
+        System.out.println("Enter the Second number");
+        int second_no = scanner.nextInt();
+
+        System.out.println("Even numbers are:");
+
+        while (first_no<=second_no) {
+
+            if (first_no%2 == 0) {
+                System.err.println(first_no);
+             }
+            first_no++;
+       }
+    }
+}
